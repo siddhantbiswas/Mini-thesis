@@ -71,7 +71,7 @@ with open(poscar_path, "w") as poscar_file:
                 )
 
                 # Define the repetition of the unit cell
-                repetition = (2, 2, 2)  # Repeat the unit cell 2x2x2 times
+                repetition = (1, 1, 1)  # Unit cell used for not defect lattices
 
                 # Create the supercell
                 supercell = unit_cell * repetition
